@@ -1,0 +1,116 @@
+# Geral
+# Node modules e lock files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Diretórios de build
+dist/
+build/
+.DS_Store
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Diretórios temporários do sistema
+tmp/
+temp/
+.vscode/
+.idea/
+
+# Arquivos gerados pelo sistema
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Diretórios do Visual Studio
+.vscode/
+.vscode-test/
+.vs/
+.vscode-oss-dev/
+
+# Diretórios e arquivos do Visual Studio
+.project
+.classpath
+.settings/
+
+# Diretórios de build do .NET
+bin/
+obj/
+
+# Arquivos do Rider e IDEs da JetBrains
+.idea/
+*.sln.iml
+*.dotsettings.user
+
+# Arquivos de build do React e caches
+.cache/
+coverage/
+.eslintcache
+.stylelintcache
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/public/static/
+public/static/
+*.map
+*.tsbuildinfo
+
+# Dependências da Docker e configurações
+docker-compose.override.yml
+Dockerfile
+Dockerfile.*
+
+# Arquivos de publicação
+.publish/
+# Arquivos de deployment
+*.deploy
+*.deploy.cmd
+*.deploy.batch
+
+# Outros
+*.sln
+*.user
+*.gyp
+
+# Diretórios de cache do sistema e logs
+.cache/
+.parcel-cache/
+*.tsbuildinfo
+*.swp
+.pnpm-debug.log*
+.swp
+
+# Imagens de disco
+*.iso
+
+# Arquivos de configuração do sistema operacional
+Thumbs.db
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Arquivos de backup e temporários
+*.bak
+*.tmp
+~$*
+
+# Ferramentas de documentação
+docfx_project/_site/
+docfx_project/_site/**
+

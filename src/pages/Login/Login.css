@@ -1,0 +1,60 @@
+/* Definindo o container principal com altura total e sem rolagem */
+.login-container {
+  @apply flex flex-col min-h-screen md:flex-row relative;
+}
+
+.logo {
+  @apply h-32 w-auto md:h-24 md:w-auto mx-auto mb-8;
+}
+
+.login-form,
+.request-access-form {
+  @apply absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center;
+}
+
+.login-form {
+  @apply bg-gradient-to-r from-[#48132c] to-[#a85f6e] p-6;
+}
+
+.request-access-form {
+  @apply bg-gradient-to-r from-[#a85f6e] to-[#48132c] p-6;
+}
+
+.login-card {
+  @apply w-full max-w-md p-6;
+}
+
+.login-input {
+  @apply w-full p-3 border border-gray-300;
+}
+
+.login-button {
+  @apply w-full mb-4 text-white font-bold py-2 px-4 rounded;
+  background: linear-gradient(90deg, #f04492, #f47875, #f69763, #f8b253);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.back-button {
+  @apply w-full mb-4 font-bold py-2 px-4 rounded;
+}
+
+.login-button:hover {
+  background: linear-gradient(90deg, #f066a6, #f48a7c, #f6a075, #f8c24d);
+  transform: scale(1.05);
+}
+
+.login-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.login-image {
+  @apply fixed inset-0 z-[-1]; /* Define a imagem como fixa, cobrindo toda a tela */
+}
+
+.login-image img {
+  @apply w-full h-full object-cover; /* Faz a imagem cobrir a tela inteira */
+}
+.app-footer {
+  @apply bg-[rgba(72,19,44,0.8)] text-white text-center p-4 absolute bottom-0 left-0 right-0 flex flex-col justify-center items-center;
+}
